@@ -2,7 +2,7 @@
 
 A monorepo for OpenAI related discovery and experiments.
 
-#### HttpTrigger:
+#### AzureFunction:
 
 An Azure Function trigger, written in Python 3.9 with openai and flask
 
