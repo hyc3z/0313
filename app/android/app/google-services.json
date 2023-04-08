@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "1065125161366",
+    "project_id": "twtankimn",
+    "storage_bucket": "twtankimn.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1065125161366:android:1fb0bc269490582ba895b7",
+        "android_client_info": {
+          "package_name": "com.example.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1065125161366-roug9077ql83daq2c3kqk7knqrk3tusr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDP9tEKUa-AQd9jUhxzSz2J3_Fk4bRtrFA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1065125161366-roug9077ql83daq2c3kqk7knqrk3tusr.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1065125161366-8huka52rkuqek3sktbh0jh6c7isufnoq.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.app"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

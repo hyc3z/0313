@@ -31,7 +31,7 @@ def track():
             engine="Agda",
             prompt= create_prompt(system_message_template.format(input_data), messages),
             temperature=0.19,
-            max_tokens=800,
+            max_tokens=4000,
             top_p=0.06,
             frequency_penalty=0,
             presence_penalty=0,
