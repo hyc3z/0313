@@ -1,4 +1,5 @@
 import 'package:flutter/cupertino.dart';
+import 'package:gpt_flutter_redux/services/message_service.dart';
 
 import '../models/chat_model.dart';
 import '../services/api_service.dart';
@@ -23,12 +24,12 @@ class ChatProvider with ChangeNotifier {
       {required String msg, required String chosenModelId}) async {
     if (chosenModelId.toLowerCase().startsWith("gpt")) {
       chatList.addAll(await ApiService.sendMessageGPT(
-        message: msg,
+        message: MessageService.getMessage(chatList),
         modelId: chosenModelId,
       ));
     } else {
       chatList.addAll(await ApiService.sendMessage(
-        message: msg,
+        message: MessageService.getMessage(chatList),
         modelId: chosenModelId,
       ));
     }

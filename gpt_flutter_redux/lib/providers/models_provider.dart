@@ -22,7 +22,8 @@ class ModelsProvider with ChangeNotifier {
   }
 
   Future<List<ModelsModel>> getAllModels() async {
-    modelsList = await ApiService.getModels();
+    // Disabling for now.
+    // modelsList = await ApiService.getModels();
     return modelsList;
   }
 }

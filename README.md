@@ -14,7 +14,7 @@ Todo:
  - Inviting number screen
  - Backend Azure Function (solved, error code not correct but happy path passed)
 - Local storage
- - Chat history
+ - Chat history (solved)
 - Text selection (solved)
 - Code display (markdown not compatible with animated text)
 - Bug: scroll to top will cause text to reanimate (solved)
