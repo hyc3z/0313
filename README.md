@@ -8,7 +8,19 @@ An Azure Function trigger, written in Python 3.9 with openai and flask
 
 #### ChatApp:
 
-A chatapp built with Flutter 3.7
+A chatapp built with Flutter
+Todo:
+- Login
+ - Inviting number screen
+ - Backend Azure Function
+- Local storage
+ - Chat history
+- Text selection
+- Code display
+- Bug: scroll to top will cause text to reanimate
+- Model selection investigation
+
+
 
 #### FineTuning:
 
