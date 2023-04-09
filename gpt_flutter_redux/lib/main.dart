@@ -1,4 +1,4 @@
-import 'package:gpt_flutter_redux/providers/models_provider.dart';
+import 'package:hulu_brothers_conversation/providers/models_provider.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
@@ -26,7 +26,7 @@ class MyApp extends StatelessWidget {
         ),
       ],
       child: MaterialApp(
-        title: 'Flutter ChatBOT',
+        title: '对话葫芦兄弟',
         debugShowCheckedModeBanner: false,
         theme: ThemeData(
             scaffoldBackgroundColor: scaffoldBackgroundColor,

@@ -1,4 +1,4 @@
-# gpt_flutter_redux
+# hulu_brothers_conversation
 
 A new Flutter project.
 

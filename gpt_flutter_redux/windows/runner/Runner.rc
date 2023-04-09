@@ -90,12 +90,12 @@ BEGIN
         BLOCK "040904e4"
         BEGIN
             VALUE "CompanyName", "com.example" "\0"
-            VALUE "FileDescription", "gpt_flutter_redux" "\0"
+            VALUE "FileDescription", "hulu_brothers_conversation" "\0"
             VALUE "FileVersion", VERSION_AS_STRING "\0"
-            VALUE "InternalName", "gpt_flutter_redux" "\0"
+            VALUE "InternalName", "hulu_brothers_conversation" "\0"
             VALUE "LegalCopyright", "Copyright (C) 2023 com.example. All rights reserved." "\0"
-            VALUE "OriginalFilename", "gpt_flutter_redux.exe" "\0"
-            VALUE "ProductName", "gpt_flutter_redux" "\0"
+            VALUE "OriginalFilename", "hulu_brothers_conversation.exe" "\0"
+            VALUE "ProductName", "hulu_brothers_conversation" "\0"
             VALUE "ProductVersion", VERSION_AS_STRING "\0"
         END
     END

@@ -1,5 +1,5 @@
-import 'package:gpt_flutter_redux/models/models_model.dart';
-import 'package:gpt_flutter_redux/services/api_service.dart';
+import 'package:hulu_brothers_conversation/models/models_model.dart';
+import 'package:hulu_brothers_conversation/services/api_service.dart';
 import 'package:flutter/cupertino.dart';
 
 class ModelsProvider with ChangeNotifier {

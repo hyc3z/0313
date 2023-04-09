@@ -1,5 +1,5 @@
 import 'package:flutter/cupertino.dart';
-import 'package:gpt_flutter_redux/services/message_service.dart';
+import 'package:hulu_brothers_conversation/services/message_service.dart';
 
 import '../models/chat_model.dart';
 import '../services/api_service.dart';
