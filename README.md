@@ -15,9 +15,9 @@ Todo:
  - Backend Azure Function
 - Local storage
  - Chat history
-- Text selection
-- Code display
-- Bug: scroll to top will cause text to reanimate
+- Text selection (solved)
+- Code display (markdown not compatible with animated text)
+- Bug: scroll to top will cause text to reanimate (solved)
 - Model selection investigation
 
 

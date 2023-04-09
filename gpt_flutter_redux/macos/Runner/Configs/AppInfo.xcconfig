@@ -8,7 +8,7 @@
 PRODUCT_NAME = gpt_flutter_redux
 
 // The application's bundle identifier
-PRODUCT_BUNDLE_IDENTIFIER = com.example.appHadi
+PRODUCT_BUNDLE_IDENTIFIER = com.example.appHyc
 
 // The copyright displayed in application information
 PRODUCT_COPYRIGHT = Copyright © 2023 com.example. All rights reserved.
