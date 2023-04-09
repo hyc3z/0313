@@ -12,13 +12,14 @@ A chatapp built with Flutter
 Todo:
 - Login
  - Inviting number screen
- - Backend Azure Function
+ - Backend Azure Function (solved, error code not correct but happy path passed)
 - Local storage
  - Chat history
 - Text selection (solved)
 - Code display (markdown not compatible with animated text)
 - Bug: scroll to top will cause text to reanimate (solved)
 - Model selection investigation
+- Redux support
 
 
 
