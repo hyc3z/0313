@@ -1,7 +1,9 @@
 import 'package:animated_text_kit/animated_text_kit.dart';
 import 'package:gpt_flutter_redux/constants/constants.dart';
+import 'package:gpt_flutter_redux/providers/chats_provider.dart';
 import 'package:gpt_flutter_redux/services/assets_manager.dart';
 import 'package:flutter/material.dart';
+import 'package:provider/provider.dart';
 
 import 'text_widget.dart';
 
@@ -10,15 +12,16 @@ class ChatWidget extends StatelessWidget {
       {super.key,
       required this.msg,
       required this.chatIndex,
-      required this.callback,
+      required this.currentIndex,
       this.shouldAnimate = false});
 
-  final Function callback;
   final String msg;
   final int chatIndex;
+  final int currentIndex;
   final bool shouldAnimate;
   @override
   Widget build(BuildContext context) {
+    final chatProvider = Provider.of<ChatProvider>(context);
     return Column(
       children: [
         Material(
@@ -60,7 +63,7 @@ class ChatWidget extends StatelessWidget {
                                     ),
                                   ],
                                   onFinished: () {
-                                    callback();
+                                    chatProvider.updateMessageStatus(currentIndex: currentIndex);
                                   },
                                   ),
                             )

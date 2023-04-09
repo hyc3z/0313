@@ -14,6 +14,11 @@ class ChatProvider with ChangeNotifier {
     notifyListeners();
   }
 
+  void updateMessageStatus({required int currentIndex}) {
+    chatList[currentIndex].isAnimated = true;
+    notifyListeners();
+  }
+
   Future<void> sendMessageAndGetAnswers(
       {required String msg, required String chosenModelId}) async {
     if (chosenModelId.toLowerCase().startsWith("gpt")) {

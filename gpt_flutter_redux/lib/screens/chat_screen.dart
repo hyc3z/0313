@@ -76,12 +76,11 @@ class _ChatScreenState extends State<ChatScreen> {
                           .getChatList[index].msg, // chatList[index].msg,
                       chatIndex: chatProvider.getChatList[index]
                           .chatIndex, //chatList[index].chatIndex,
+                      currentIndex: chatProvider.getChatList[index]
+                          .currentIndex, //chatList[index].chatIndex,
                       shouldAnimate:
                           chatProvider.getChatList.length - 1 == index && !chatProvider
                           .getChatList[index].isAnimated,
-                      callback: () => {
-                        chatProvider.getChatList[index].isAnimated = true
-                      }
                     );
                   }),
             ),
