@@ -1,4 +1,5 @@
 import json
+import ast
 
 from revChatGPT.V1 import Chatbot
 import os
@@ -7,6 +8,7 @@ openai.api_type = "azure"
 openai.api_base = "https://bob.openai.azure.com/"
 openai.api_version = "2022-12-01"
 openai.api_key = os.getenv("OPENAI_API_KEY")
+ALLOWED_KEYS = os.getenv("APP_ALLOWED_KEYS")
 
 from flask import Flask, request, Response
 
@@ -28,9 +30,16 @@ app = Flask(__name__)
 def track():
     return_message = ""
     if request.method == 'POST':
-        input_data = request.get_data().decode('utf-8')
-        # List of messages
         try:
+            allowed_keys = ast.literal_eval(ALLOWED_KEYS)
+            token = request.headers.get('Authorization').replace("Bearer ", "")
+            if token not in allowed_keys:
+                return Response(
+                    "Request invalid. Invalid authorization token.",
+                    status=401,
+                )
+            input_data = request.get_data(as_text=True)
+            # List of messages
             messages = json.loads(input_data)
             response = openai.Completion.create(
                 engine="Agda",
