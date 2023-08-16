@@ -1,4 +1,4 @@
-package com.example.hulu_brothers_conversation
+package com.example.conge_ai_chatgpt
 
 import io.flutter.embedding.android.FlutterActivity
 

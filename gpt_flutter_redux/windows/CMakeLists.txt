@@ -1,10 +1,10 @@
 # Project-level configuration.
 cmake_minimum_required(VERSION 3.14)
-project(hulu_brothers_conversation LANGUAGES CXX)
+project(conge_ai_chatgpt LANGUAGES CXX)
 
 # The name of the executable created for the application. Change this to change
 # the on-disk name of your application.
-set(BINARY_NAME "hulu_brothers_conversation")
+set(BINARY_NAME "conge_ai_chatgpt")
 
 # Explicitly opt in to modern CMake behaviors to avoid warnings with recent
 # versions of CMake.

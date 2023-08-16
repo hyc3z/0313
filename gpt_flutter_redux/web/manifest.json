@@ -1,6 +1,6 @@
 {
-    "name": "hulu_brothers_conversation",
-    "short_name": "hulu_brothers_conversation",
+    "name": "conge_ai_chatgpt",
+    "short_name": "conge_ai_chatgpt",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",

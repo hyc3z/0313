@@ -1,9 +1,9 @@
 import 'dart:developer';
 
-import 'package:hulu_brothers_conversation/constants/constants.dart';
-import 'package:hulu_brothers_conversation/providers/chats_provider.dart';
-import 'package:hulu_brothers_conversation/services/services.dart';
-import 'package:hulu_brothers_conversation/widgets/chat_widget.dart';
+import 'package:conge_ai_chatgpt/constants/constants.dart';
+import 'package:conge_ai_chatgpt/providers/chats_provider.dart';
+import 'package:conge_ai_chatgpt/services/services.dart';
+import 'package:conge_ai_chatgpt/widgets/chat_widget.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_spinkit/flutter_spinkit.dart';
 import 'package:provider/provider.dart';
@@ -53,7 +53,7 @@ class _ChatScreenState extends State<ChatScreen> {
           padding: const EdgeInsets.all(8.0),
           child: Image.asset(AssetsManager.openaiLogo),
         ),
-        title: const Text("对话葫芦兄弟"),
+        title: const Text("ChatGPT - 聪哥AI"),
         actions: [
           IconButton(
             onPressed: () async {
@@ -110,7 +110,7 @@ class _ChatScreenState extends State<ChatScreen> {
                               chatProvider: chatProvider);
                         },
                         decoration: const InputDecoration.collapsed(
-                            hintText: "一起对话葫芦兄弟吧！",
+                            hintText: "一起玩转AI吧！",
                             hintStyle: TextStyle(color: Colors.grey)),
                       ),
                     ),

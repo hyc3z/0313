@@ -1,5 +1,5 @@
-import 'package:hulu_brothers_conversation/providers/models_provider.dart';
-import 'package:hulu_brothers_conversation/widgets/text_widget.dart';
+import 'package:conge_ai_chatgpt/providers/models_provider.dart';
+import 'package:conge_ai_chatgpt/widgets/text_widget.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_spinkit/flutter_spinkit.dart';
 import 'package:provider/provider.dart';

@@ -1,7 +1,7 @@
 import 'package:animated_text_kit/animated_text_kit.dart';
-import 'package:hulu_brothers_conversation/constants/constants.dart';
-import 'package:hulu_brothers_conversation/providers/chats_provider.dart';
-import 'package:hulu_brothers_conversation/services/assets_manager.dart';
+import 'package:conge_ai_chatgpt/constants/constants.dart';
+import 'package:conge_ai_chatgpt/providers/chats_provider.dart';
+import 'package:conge_ai_chatgpt/services/assets_manager.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 

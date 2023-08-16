@@ -2,9 +2,9 @@ import 'dart:convert';
 import 'dart:developer';
 import 'dart:io';
 
-import 'package:hulu_brothers_conversation/constants/api_consts.dart';
-import 'package:hulu_brothers_conversation/models/chat_model.dart';
-import 'package:hulu_brothers_conversation/models/models_model.dart';
+import 'package:conge_ai_chatgpt/constants/api_consts.dart';
+import 'package:conge_ai_chatgpt/models/chat_model.dart';
+import 'package:conge_ai_chatgpt/models/models_model.dart';
 import 'package:http/http.dart' as http;
 
 class ApiService {

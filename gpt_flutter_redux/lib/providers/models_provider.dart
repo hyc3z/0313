@@ -1,5 +1,5 @@
-import 'package:hulu_brothers_conversation/models/models_model.dart';
-import 'package:hulu_brothers_conversation/services/api_service.dart';
+import 'package:conge_ai_chatgpt/models/models_model.dart';
+import 'package:conge_ai_chatgpt/services/api_service.dart';
 import 'package:flutter/cupertino.dart';
 
 class ModelsProvider with ChangeNotifier {

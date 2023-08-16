@@ -1,7 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.hulu_brothers_conversation">
+    package="com.example.conge_ai_chatgpt">
    <application
-        android:label="hulu_brothers_conversation"
+        android:label="conge_ai_chatgpt"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity
